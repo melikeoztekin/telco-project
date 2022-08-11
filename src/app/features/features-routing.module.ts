@@ -3,12 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomepageComponent } from './common/pages/homepage/homepage.component';
 
 const routes: Routes = [
-{ path: '', component: HomepageComponent, pathMatch: 'full' },
+  { path: '', component: HomepageComponent, pathMatch: 'full' },
   { path: 'homepage', component: HomepageComponent, pathMatch: 'full' },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class FeaturesRoutingModule { }
+export class FeaturesRoutingModule {}

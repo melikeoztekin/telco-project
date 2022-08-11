@@ -3,9 +3,14 @@
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Name</th>
-      <th colspan="2">
-        <div class="btn btn-primary" routerLink="/add-service">
-          <i class="fa fa-solid fa-plus"></i>Add Service
+      <th colspan="2" class="text-center">
+        <div
+          class="btn btn-primary"
+          style="border-radius: 50%"
+          routerLink="/add-service"
+          title="add new service"
+        >
+          <i class="fa fa-solid fa-plus"></i>
         </div>
       </th>
     </tr>
@@ -14,16 +19,33 @@
     <tr *ngFor="let service of serviceList">
       <th scope="row">{{ service.id }}</th>
       <td>{{ service.name }}</td>
-      <td>
-        <div class="btn btn-success" routerLink="/service/{{ service.id }}">
-          <i class="fa fa-solid fa-pencil"></i>Edit
+      <td class="text-center">
+        <div
+          class="btn btn-success"
+          style="border-radius: 50%"
+          title="edit service"
+          routerLink="/service/{{ service.id }}"
+        >
+          <i class="fa fa-solid fa-pencil"></i>
         </div>
       </td>
-      <td>
-        <div class="btn btn-danger" (click)="deleteService(service)">
-          <i class="fa fa-solid fa-trash"></i>Delete
+      <td class="text-center">
+        <div
+          class="btn btn-danger"
+          style="border-radius: 50%"
+          title="delete service"
+          (click)="deleteService(service)"
+        >
+          <i class="fa fa-solid fa-trash"></i>
         </div>
       </td>
     </tr>
   </tbody>
 </table>
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-end me-5">
+    <li class="page-item" *ngFor="let index of allDataArray">
+      <a class="page-link" (click)="fillData(index)">{{ index }}</a>
+    </li>
+  </ul>
+</nav>
