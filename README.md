@@ -28,6 +28,7 @@
   
 **Projede API dosyası İndirme/Kurulum ve Başlatma**🔧
  - Proje dosyasını .zip olarak bilgisayara indirdiğimizde src/assets/ klasörü altında yer alan `telco-json-server` api dosyası olarak karşımıza çıkar.
+ - Klasör içerisinde yer alan `.env.example` doysasının bir kopyasını aynı dosya içerisine ekleyerek adını `.env` olarak değiştirelim.
  - `npm install` diyerek node_modules dosyasının api işlemi içinde indirilmesini gerçekleştirelim.
  - İndirme işlemi tamamlandıktan sonra yine terminal ekranında `npm start` komutu ile apiyi çalıştıralım.
  - API localde çalışırken özelleştirme yapılmamış ise `localhost:3000` adresi ile çalışacaktır.
