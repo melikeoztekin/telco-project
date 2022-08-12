@@ -1,5 +1,5 @@
-# Telcom Angular Project
-[kodlama.io](https://www.kodlama.io/) tarafından misafir öğrenci olarak katıldığım akademi eğitimi sürecinde ödevler ve geliştirilmesi gereken projeler kapsamında ***Telcom Project*** adlı **Angular** projesini geliştirmekteyim.
+# Telco Angular Project
+[kodlama.io](https://www.kodlama.io/) tarafından misafir öğrenci olarak katıldığım akademi eğitimi sürecinde ödevler ve geliştirilmesi gereken projeler kapsamında ***Telco Project*** adlı **Angular** projesini geliştirmekteyim.
 
 ## 🛠  Kullanılan Teknolojiler
 <img src="https://img.shields.io/badge/Angular-1976D2?style=for-the-badge&logo=angular&logoColor=DD0031"/> <img src="https://img.shields.io/badge/TypeScript-2F74C0?style=for-the-badge&logo=typescript&logoColor=FFFFFF" /> <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white" /> <img src="https://img.shields.io/badge/HTML5-FC4011?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-5A8AB9?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/Bootstrap-8A12FC?style=for-the-badge&logo=bootstrap&logoColor=white" />
